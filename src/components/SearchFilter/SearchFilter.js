@@ -1,6 +1,6 @@
 import { SearchInput, InputContainer } from "./SearchFilter.styled";
 
-export const SearchFilter = ({ filter:{filter}, onChangeFilter }) => {
+export const SearchFilter = ({ filter, onChangeFilter }) => {
     return (
         <InputContainer>
         <SearchInput type="text"
